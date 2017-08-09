@@ -1,6 +1,4 @@
- /*****************************
-            640 PX
-******************************/
+
 @media screen and (max-width: 640px) {
 
  /*****************************
@@ -58,21 +56,10 @@ SIDEBAR
      width: 100%;
 
   }
-
-
- /*****************************
-FOOTER
-******************************/
 }
 
- /*****************************
-            768 PX
-******************************/
+
 @media screen and (max-width: 768px) {
-
-/* Navigation will stay the same pre-responsive css. 
-Main container and sidebar will stack on top of each other */
-
 
  /*****************************
 HEADER
@@ -120,17 +107,12 @@ MAIN
 SIDEBAR
 ******************************/
   .sidebar {
-   float: none; /* left */
+   float: none;
    margin: auto;
    max-width: 90%;
    width: 100%;
  }
 
-
-
- /*****************************
-FOOTER
-******************************/
 
 
 }
@@ -176,7 +158,7 @@ MAIN
 }
 
 .profile-photo {
- /*  width: 90%; */
+  width: 90%; 
 } 
 
 
@@ -185,8 +167,8 @@ MAIN
 PORTFOLIO
 ******************************/
   .work {
-   /*  display: block;
-   width: 60%; */
+   display: block;
+   width: 60%;
 
   }
 
