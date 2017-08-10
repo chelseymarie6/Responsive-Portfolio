@@ -121,25 +121,6 @@ footer {
 }
 
 /************
-ALL PAGES - MAIN
-************/
-
-#main-container {
-  padding-top: 130px;
-}
-
-.main-section {
-  float: left;
-  width: 100%;
-  max-width: 650px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
-  text-overflow: wrap;
-}
-
-/************
 ALL PAGES - SIDEBAR
 ************/
 
@@ -149,6 +130,7 @@ ALL PAGES - SIDEBAR
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
+  margin: 10px;
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -172,23 +154,41 @@ h3,
   margin-right: 0;
 }
 
+/************
+ALL PAGES - MAIN
+************/
+
+#main-container {
+  padding-top: 130px;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-overflow: wrap;
+}
 
 /**************
 PAGE: ABOUT
 ***************/
-.profile-photo {
-  border-radius: 20px;
-  display: block;
-  float: left;
-  height: auto;
-  margin: 10px 25px 0 0;
-  width: 150px;
-  text-overflow: wrap;
+ .profile-photo {  
+    border-radius: 20px;
+    display: block;
+    float: left;
+    height: auto;
+    margin: 10px 25px 0 0;
+    width: 150px;
+    text-overflow: wrap;
 }
 
-p {
-  margin: auto;
-  padding: 25px;
+  p {
+    margin: auto;
+    padding: 25px;
 }
 
 
