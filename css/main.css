@@ -82,6 +82,17 @@ HEADING
   background: #4aaaa5;
 }
 
+@keyframes example {
+  from {background-color: #173534;}
+  to {background-color: #4aaaa5;}
+}
+
+#logo {
+  background-color: #4aaaa5;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
 /************
 NAVIGATION
 ************/
@@ -130,7 +141,7 @@ ALL PAGES - SIDEBAR
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  margin: 10px;
+  /* margin: 10px; */
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -182,7 +193,7 @@ PAGE: ABOUT
     float: left;
     height: auto;
     margin: 10px 25px 0 0;
-    width: 150px;
+    /* width: 150px; */
     text-overflow: wrap;
 }
 
@@ -242,7 +253,7 @@ PAGE: PORTFOLIO
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  max-width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -271,13 +282,13 @@ PAGE: PORTFOLIO
   border-bottom: 0;
 }
 
-.auth-image {
+/* .auth-image {
   float: left;
   width: 200px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-}
+} */
 
 
 /************
